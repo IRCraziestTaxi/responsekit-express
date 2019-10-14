@@ -2,6 +2,8 @@
 Wraps a base controller that returns express Responses with responsekit payloads.
 
 ## Install
+This lib relies on the [https://github.com/IRCraziestTaxi/responsekit](@responsekit/core) lib.
+
 To use `@responsekit/express`:
 
 ```
@@ -43,4 +45,4 @@ export class ThingController extends CommandResultController {
 }
 ```
 
-For an extension of `tsmediator`'s `Mediator` that handles returning thrown `Rejection`s in a `Validate` method, for instance, check out the `@responsekit/tsmediator` package.
+For an extension of `tsmediator`'s `Mediator` that handles returning thrown `Rejection`s in a `Validate` method, for instance, check out the [https://github.com/IRCraziestTaxi/responsekit-tsmediator](`@responsekit/tsmediator`) package.
