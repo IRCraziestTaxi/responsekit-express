@@ -18,7 +18,7 @@
   "homepage": "https://github.com/IRCraziestTaxi/responsekit-express#readme",
   "devDependencies": {
     "@types/express": "^4.17.1",
-    "tslint": "^5.20.0",
+    "tslint": "^6.1.2",
     "typescript": "~3.6.4"
   },
   "peerDependencies": {
